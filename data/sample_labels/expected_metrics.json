@@ -1,0 +1,12 @@
+{
+  "input_rows_total": 9,
+  "expected_clean_inserted": 4,
+  "expected_quarantined": 4,
+  "expected_duplicates_filtered": 1,
+  "expected_paid_non_late_aggregate_total": 170.0,
+  "notes": [
+    "sample_003 is CANCELLED and should not affect aggregate",
+    "sample_005 is late and should not affect aggregate",
+    "sample_001 in batch_0002 is duplicate"
+  ]
+}

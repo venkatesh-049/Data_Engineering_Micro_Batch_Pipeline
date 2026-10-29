@@ -1,0 +1,5 @@
+{"event_id": "sample_001", "event_time": "2026-03-30T10:01:00+00:00", "customer_id": "cust_100", "order_id": "ord_1001", "currency": "USD", "gross_amount": 100.0, "order_status": "PAID", "client_version": "v1.2.0"}
+{"event_id": "sample_005", "event_time": "2026-03-30T09:39:00+00:00", "customer_id": "cust_103", "order_id": "ord_1005", "currency": "USD", "gross_amount": 20.0, "order_status": "PAID", "client_version": "v1.2.0"}
+{"event_id": "sample_006", "event_time": "2026-03-30T10:01:15+00:00", "customer_id": "cust_104", "order_id": "ord_1006", "currency": "USD", "gross_amount": -10.0, "order_status": "PAID", "client_version": "v1.2.0"}
+{"event_id": "sample_007", "event_time": "2026-03-30T10:01:20+00:00", "customer_id": "cust_105", "order_id": "ord_1007", "currency": "GBP", "gross_amount": 25.0, "order_status": "PAID", "new_upstream_field": "unexpected"}
+{"event_id": "bad_json", "broken": 
