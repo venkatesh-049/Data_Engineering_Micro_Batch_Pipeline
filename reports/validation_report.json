@@ -1,0 +1,27 @@
+{
+  "expected": {
+    "input_rows_total": 9,
+    "expected_clean_inserted": 4,
+    "expected_quarantined": 4,
+    "expected_duplicates_filtered": 1,
+    "expected_paid_non_late_aggregate_total": 170.0,
+    "notes": [
+      "sample_003 is CANCELLED and should not affect aggregate",
+      "sample_005 is late and should not affect aggregate",
+      "sample_001 in batch_0002 is duplicate"
+    ]
+  },
+  "actual": {
+    "actual_input_rows_total": 90609,
+    "actual_clean_inserted": 84421,
+    "actual_quarantined": 4428,
+    "actual_duplicates_filtered": 1760,
+    "actual_paid_non_late_aggregate_total": 170.0
+  },
+  "checks": {
+    "clean_inserted_match": false,
+    "quarantined_match": false,
+    "duplicates_match": false,
+    "aggregate_match": true
+  }
+}

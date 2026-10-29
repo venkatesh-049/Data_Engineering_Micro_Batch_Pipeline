@@ -1,0 +1,210 @@
+{
+  "generated_at_utc": "2026-10-29T18:08:38.185804+00:00",
+  "database_path": "C:\\Users\\venkatesh\\OneDrive\\Desktop\\assignment_yottaflex\\Venky_72hrs\\storage\\warehouse.duckdb",
+  "checkpoint": {
+    "pipeline_name": "order_micro_batch_stream",
+    "last_processed_batch": 20,
+    "high_event_watermark": "2026-04-03T23:50:15",
+    "updated_at": "2026-10-29T23:35:13.845932"
+  },
+  "run_totals": {
+    "total_runs": 20,
+    "success_runs": 20,
+    "failed_runs": 0,
+    "input_records": 90609,
+    "inserted_records": 84421,
+    "quarantined_records": 4428,
+    "duplicate_records": 1760,
+    "late_records": 86178,
+    "avg_duration_ms": 6772.55
+  },
+  "aggregate_snapshot": {
+    "aggregate_total": 170.0,
+    "aggregate_order_count": 2,
+    "aggregate_windows": 2
+  },
+  "recent_runs": [
+    {
+      "run_id": "075bf692-34cc-4835-a54d-8d7cdee50e79",
+      "batch_id": 20,
+      "status": "SUCCESS",
+      "source_file": "batch_0020.json",
+      "input_records": 6000,
+      "inserted_records": 5576,
+      "quarantined_records": 311,
+      "duplicate_records": 113,
+      "late_records": 5689,
+      "duration_ms": 11207,
+      "started_at": "2026-10-29T23:35:02.640796",
+      "completed_at": "2026-10-29T23:35:13.847976"
+    },
+    {
+      "run_id": "5f402cb1-834a-48fc-8334-83f211265268",
+      "batch_id": 19,
+      "status": "SUCCESS",
+      "source_file": "batch_0019.json",
+      "input_records": 6000,
+      "inserted_records": 5628,
+      "quarantined_records": 270,
+      "duplicate_records": 102,
+      "late_records": 5730,
+      "duration_ms": 9951,
+      "started_at": "2026-10-29T23:34:52.529611",
+      "completed_at": "2026-10-29T23:35:02.481140"
+    },
+    {
+      "run_id": "db46d370-0916-4e7b-ab2c-e37905150be6",
+      "batch_id": 18,
+      "status": "SUCCESS",
+      "source_file": "batch_0018.json",
+      "input_records": 6000,
+      "inserted_records": 5592,
+      "quarantined_records": 310,
+      "duplicate_records": 98,
+      "late_records": 5690,
+      "duration_ms": 7601,
+      "started_at": "2026-10-29T23:34:44.909701",
+      "completed_at": "2026-10-29T23:34:52.511153"
+    },
+    {
+      "run_id": "18182949-42e5-473a-9198-bb94eb7e4bae",
+      "batch_id": 17,
+      "status": "SUCCESS",
+      "source_file": "batch_0017.json",
+      "input_records": 6000,
+      "inserted_records": 5626,
+      "quarantined_records": 277,
+      "duplicate_records": 97,
+      "late_records": 5723,
+      "duration_ms": 9044,
+      "started_at": "2026-10-29T23:34:35.846635",
+      "completed_at": "2026-10-29T23:34:44.891123"
+    },
+    {
+      "run_id": "6c1d1154-c32f-4ada-8a43-f522cb5fd1b1",
+      "batch_id": 16,
+      "status": "SUCCESS",
+      "source_file": "batch_0016.json",
+      "input_records": 6000,
+      "inserted_records": 5605,
+      "quarantined_records": 268,
+      "duplicate_records": 127,
+      "late_records": 5732,
+      "duration_ms": 10838,
+      "started_at": "2026-10-29T23:34:24.983453",
+      "completed_at": "2026-10-29T23:34:35.822058"
+    },
+    {
+      "run_id": "b6186eec-f78b-452f-b989-291bb93f84c6",
+      "batch_id": 15,
+      "status": "SUCCESS",
+      "source_file": "batch_0015.json",
+      "input_records": 6000,
+      "inserted_records": 5585,
+      "quarantined_records": 311,
+      "duplicate_records": 104,
+      "late_records": 5689,
+      "duration_ms": 7212,
+      "started_at": "2026-10-29T23:34:17.743462",
+      "completed_at": "2026-10-29T23:34:24.956102"
+    },
+    {
+      "run_id": "044b3952-a79d-49be-8e83-f3fd0d7f78ae",
+      "batch_id": 14,
+      "status": "SUCCESS",
+      "source_file": "batch_0014.json",
+      "input_records": 6000,
+      "inserted_records": 5605,
+      "quarantined_records": 279,
+      "duplicate_records": 116,
+      "late_records": 5721,
+      "duration_ms": 8295,
+      "started_at": "2026-10-29T23:34:09.428056",
+      "completed_at": "2026-10-29T23:34:17.723959"
+    },
+    {
+      "run_id": "11de8d87-2e0e-4a5c-81bc-e74aeb85d8eb",
+      "batch_id": 13,
+      "status": "SUCCESS",
+      "source_file": "batch_0013.json",
+      "input_records": 6000,
+      "inserted_records": 5578,
+      "quarantined_records": 283,
+      "duplicate_records": 139,
+      "late_records": 5717,
+      "duration_ms": 8222,
+      "started_at": "2026-10-29T23:34:01.189270",
+      "completed_at": "2026-10-29T23:34:09.412234"
+    },
+    {
+      "run_id": "96c7b300-6423-47cf-b6cd-9a19753fad1f",
+      "batch_id": 12,
+      "status": "SUCCESS",
+      "source_file": "batch_0012.json",
+      "input_records": 6000,
+      "inserted_records": 5588,
+      "quarantined_records": 294,
+      "duplicate_records": 118,
+      "late_records": 5706,
+      "duration_ms": 9394,
+      "started_at": "2026-10-29T23:33:51.769672",
+      "completed_at": "2026-10-29T23:34:01.164268"
+    },
+    {
+      "run_id": "cfdd7ef6-0e14-4c61-ad47-734b6b347484",
+      "batch_id": 11,
+      "status": "SUCCESS",
+      "source_file": "batch_0011.json",
+      "input_records": 6000,
+      "inserted_records": 5595,
+      "quarantined_records": 281,
+      "duplicate_records": 124,
+      "late_records": 5719,
+      "duration_ms": 7942,
+      "started_at": "2026-10-29T23:33:43.811151",
+      "completed_at": "2026-10-29T23:33:51.754083"
+    }
+  ],
+  "top_quarantine_reasons": [
+    {
+      "error_reason": "ERR_VALIDATION: Extra inputs are not permitted",
+      "rejected_count": 888
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Field required",
+      "rejected_count": 874
+    },
+    {
+      "error_reason": "ERR_REFERENCE: Unknown customer_id unknown_customer",
+      "rejected_count": 830
+    },
+    {
+      "error_reason": "ERR_MALFORMED_JSON: Expecting value: line 1 column 41 (char 40)",
+      "rejected_count": 8
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -10.92",
+      "rejected_count": 2
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -117.97",
+      "rejected_count": 2
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -127.8",
+      "rejected_count": 2
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -128.61",
+      "rejected_count": 2
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -164.58",
+      "rejected_count": 2
+    },
+    {
+      "error_reason": "ERR_VALIDATION: Value error, gross_amount cannot be negative: -17.01",
+      "rejected_count": 2
+    }
+  ]
+}
